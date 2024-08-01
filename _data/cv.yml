@@ -1,0 +1,89 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Lingxiao Li
+    - name: Languages
+      value: Chinese, English
+
+- title: Education
+  type: time_table
+  contents:
+    - title: MSc in Computer Science
+      institution: Columbia University, New York, USA
+      year: 2022
+
+    - title: BSc (Hons) in Computer Science
+      institution: University of Liverpool, Liverpool, UK
+      year: 2020
+
+    - title: BSc (Hons) in Computer Science
+      institution: Xi’an Jiao-tong Liverpool University, Suzhou, China
+      year: 2020
+
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Assistant
+      institution: Department of Information Engineering, The Chinese University of Hong Kong
+      year: 2024 - now
+      advisor: Advised by Prof. Xiangyu Yue
+      description:
+        - Customized Image Editing and Generation with Diffusion Models, Generative Models Theory
+    
+    - title: Research Assistant
+      institution: Institute of Computing Technology, Chinese Academy of Sciences
+      year: 2021 - now
+      advisor: Advised by Prof. Shuhui Wang
+      description:
+        - This research focuses on generating diverse images for an unseen category given only a few images.
+        - Achieve state-of-the-art few-shot image generation with high quality and diversity using GAN inversion to manipulate latent codes in hyperbolic space.
+        
+    - title: Research Assistant
+      institution: Department of Computer Science, Columbia University
+      year: 2022 - 2023
+      advisor: Advised by Prof. Junfeng Yang and Prof. Asaf Cidon
+      description:
+        - Monitor and adopt domain shifts at scale in the post-deployment phase to maintain a healthy and functional deep learning system.
+            
+    - title: Research Assistant
+      institution: Department of Electrical Engineering, Columbia University
+      year: 2021 - 2022
+      advisor: Advised by Prof. Zoran Kostic
+      description:
+        - Deployed and trained a customized YOLOv4 on Google Cloud Platform to track small objects in video from 12th floor eye bird camera, decorated the confounder in the training dataset to improve the detection accuracy.
+        - Deployed DeepSORT and achieved an average of over 95% counting accuracy for vehicles.
+      
+- title: Teaching
+  type: time_table
+  contents:
+    - title: CSOR W4231 - Analysis of Algorithms, Spring 22
+      institution: Department of Computer Science, Columbia University
+      year: 2022
+      location: NYC, USA
+      items: 
+        - <u>Instructor:</u> Eleni Drinea
+        - Teaching Assistant for 400 students
+        - Developed course material, assignments and gave tutorials
+
+
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Unsupervised/Few-shot learning
+    - title: Generative models
+      items: 
+        - GANs
+        - Diffusion models
+    - title: Domain generalization
+      items:
+        - Test time domain adaptation
+    - title: Representation Learning
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Volunteer:</u> Primary School Teacher, AIESEC Overseas Volunteer Program in Colombo, Sri Lanka, 2017
+    - <u>Hobbies:</u> Classical Music, History, etc.
